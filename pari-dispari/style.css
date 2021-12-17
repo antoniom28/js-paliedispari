@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+ul li img{
+    cursor: pointer;
+}
+
+img{
+    width: 60px;
+}
+
+#pari,#dispari{
+    display: none;
+    font-weight: bold;
+}
+
+#manoComputer, #manoUtente{
+    font-weight: bold;
+}
+
+#manoComputer img, #manoUtente img{
+    width: 100px;
+    margin: 0px 20px;
+}
+
+#manoComputer img{
+    transform: rotate(-60deg) translate(-15px, 0px);
+}
+
+#manoUtente img{
+    transform: rotate(60deg) translate(15px, 0px);
+}
